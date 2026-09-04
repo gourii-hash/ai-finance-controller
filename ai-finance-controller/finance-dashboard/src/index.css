@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #080c18;
+  --color-surface: #111729;
+  --color-surface-hover: #171f34;
+  --color-surface-soft: #0d1324;
+
+  --color-border: rgba(255, 255, 255, 0.07);
+  --color-border-strong: rgba(255, 255, 255, 0.11);
+
+  --color-blue: #4d8dff;
+  --color-blue-soft: #6d9fff;
+  --color-purple: #7c5cff;
+
+  --color-gold: #d9a441;
+
+  --color-green: #35c98b;
+  --color-yellow: #e8b04a;
+  --color-red: #e35d6a;
+  --color-grey: #737d91;
+
+  --color-text: #f4f6fa;
+  --color-text-dim: #8d96a8;
+  --color-text-muted: #606a7d;
+}
+
+:root {
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  color: var(--color-text);
+  background: var(--color-bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-bg);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at 70% -10%,
+      rgba(77, 141, 255, 0.08),
+      transparent 35%
+    ),
+    var(--color-bg);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+::selection {
+  background: rgba(77, 141, 255, 0.25);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252e42;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #34405a;
+}

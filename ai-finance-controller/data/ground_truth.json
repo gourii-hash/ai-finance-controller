@@ -1,0 +1,1082 @@
+[
+  {
+    "transaction_id": "TXN-0001",
+    "invoice_id": "INV-1001",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0002",
+    "invoice_id": "INV-1002",
+    "scenario": "date_variance",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Settlement date is delayed but within tolerance."
+  },
+  {
+    "transaction_id": "TXN-0003",
+    "invoice_id": "INV-1003",
+    "scenario": "split_payment",
+    "status": "EXCEPTION_TAX_MISMATCH",
+    "expected_payment_count": 1,
+    "financial_difference": 0.01,
+    "explanation": "Tax ledger differs from ERP by \u20b90.01."
+  },
+  {
+    "transaction_id": "TXN-0004",
+    "invoice_id": "INV-1004",
+    "scenario": "credit_note",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 7500.0,
+    "explanation": "Credit note of 7500 explains lower settlement."
+  },
+  {
+    "transaction_id": "TXN-0005",
+    "invoice_id": "INV-1005",
+    "scenario": "gateway_fee",
+    "status": "EXCEPTION_TAX_MISMATCH",
+    "expected_payment_count": 1,
+    "financial_difference": 0.01,
+    "explanation": "Tax ledger differs from ERP by \u20b90.01."
+  },
+  {
+    "transaction_id": "TXN-0006",
+    "invoice_id": "INV-1006",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0007",
+    "invoice_id": "INV-1007",
+    "scenario": "gateway_fee",
+    "status": "EXCEPTION_TAX_MISMATCH",
+    "expected_payment_count": 1,
+    "financial_difference": 0.01,
+    "explanation": "Tax ledger differs from ERP by \u20b90.01."
+  },
+  {
+    "transaction_id": "TXN-0008",
+    "invoice_id": "INV-1008",
+    "scenario": "gateway_fee",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 3687.5,
+    "explanation": "2.5% gateway fee explains variance."
+  },
+  {
+    "transaction_id": "TXN-0009",
+    "invoice_id": "INV-1009",
+    "scenario": "split_payment",
+    "status": "EXCEPTION_TAX_MISMATCH",
+    "expected_payment_count": 1,
+    "financial_difference": 0.01,
+    "explanation": "Tax ledger differs from ERP by \u20b90.01."
+  },
+  {
+    "transaction_id": "TXN-0010",
+    "invoice_id": "INV-1010",
+    "scenario": "tax_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0011",
+    "invoice_id": "INV-1011",
+    "scenario": "exact_match",
+    "status": "EXCEPTION_TAX_MISMATCH",
+    "expected_payment_count": 1,
+    "financial_difference": 0.01,
+    "explanation": "Tax ledger differs from ERP by \u20b90.01."
+  },
+  {
+    "transaction_id": "TXN-0012",
+    "invoice_id": "INV-1012",
+    "scenario": "date_variance",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Settlement date is delayed but within tolerance."
+  },
+  {
+    "transaction_id": "TXN-0013",
+    "invoice_id": "INV-1013",
+    "scenario": "gateway_fee",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 2212.5,
+    "explanation": "2.5% gateway fee explains variance."
+  },
+  {
+    "transaction_id": "TXN-0014",
+    "invoice_id": "INV-1014",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0015",
+    "invoice_id": "INV-1015",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0016",
+    "invoice_id": "INV-1016",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0017",
+    "invoice_id": "INV-1017",
+    "scenario": "date_variance",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Settlement date is delayed but within tolerance."
+  },
+  {
+    "transaction_id": "TXN-0018",
+    "invoice_id": "INV-1018",
+    "scenario": "split_payment",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two payments combine exactly to settle the invoice."
+  },
+  {
+    "transaction_id": "TXN-0019",
+    "invoice_id": "INV-1019",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0020",
+    "invoice_id": "INV-1020",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0021",
+    "invoice_id": "INV-1021",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0022",
+    "invoice_id": "INV-1022",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0023",
+    "invoice_id": "INV-1023",
+    "scenario": "split_payment",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two payments combine exactly to settle the invoice."
+  },
+  {
+    "transaction_id": "TXN-0024",
+    "invoice_id": "INV-1024",
+    "scenario": "tax_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0025",
+    "invoice_id": "INV-1025",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0026",
+    "invoice_id": "INV-1026",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0027",
+    "invoice_id": "INV-1027",
+    "scenario": "date_variance",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Settlement date is delayed but within tolerance."
+  },
+  {
+    "transaction_id": "TXN-0028",
+    "invoice_id": "INV-1028",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0029",
+    "invoice_id": "INV-1029",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0030",
+    "invoice_id": "INV-1030",
+    "scenario": "date_variance",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Settlement date is delayed but within tolerance."
+  },
+  {
+    "transaction_id": "TXN-0031",
+    "invoice_id": "INV-1031",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0032",
+    "invoice_id": "INV-1032",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0033",
+    "invoice_id": "INV-1033",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0034",
+    "invoice_id": "INV-1034",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0035",
+    "invoice_id": "INV-1035",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0036",
+    "invoice_id": "INV-1036",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0037",
+    "invoice_id": "INV-1037",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0038",
+    "invoice_id": "INV-1038",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0039",
+    "invoice_id": "INV-1039",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0040",
+    "invoice_id": "INV-1040",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0041",
+    "invoice_id": "INV-1041",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0042",
+    "invoice_id": "INV-1042",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0043",
+    "invoice_id": "INV-1043",
+    "scenario": "date_variance",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Settlement date is delayed but within tolerance."
+  },
+  {
+    "transaction_id": "TXN-0044",
+    "invoice_id": "INV-1044",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0045",
+    "invoice_id": "INV-1045",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0046",
+    "invoice_id": "INV-1046",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0047",
+    "invoice_id": "INV-1047",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0048",
+    "invoice_id": "INV-1048",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0049",
+    "invoice_id": "INV-1049",
+    "scenario": "split_payment",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two payments combine exactly to settle the invoice."
+  },
+  {
+    "transaction_id": "TXN-0050",
+    "invoice_id": "INV-1050",
+    "scenario": "tax_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0051",
+    "invoice_id": "INV-1051",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0052",
+    "invoice_id": "INV-1052",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0053",
+    "invoice_id": "INV-1053",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0054",
+    "invoice_id": "INV-1054",
+    "scenario": "gateway_fee",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 2891.0,
+    "explanation": "2.5% gateway fee explains variance."
+  },
+  {
+    "transaction_id": "TXN-0055",
+    "invoice_id": "INV-1055",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0056",
+    "invoice_id": "INV-1056",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0057",
+    "invoice_id": "INV-1057",
+    "scenario": "partial_settlement",
+    "status": "PARTIAL_UNRESOLVED",
+    "expected_payment_count": 1,
+    "financial_difference": 1237.5,
+    "explanation": "Gateway fee explains part; residual bank difference unresolved."
+  },
+  {
+    "transaction_id": "TXN-0058",
+    "invoice_id": "INV-1058",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0059",
+    "invoice_id": "INV-1059",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0060",
+    "invoice_id": "INV-1060",
+    "scenario": "duplicate_payment",
+    "status": "EXCEPTION_DUPLICATE",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two bank credits match the same invoice; one is a potential duplicate."
+  },
+  {
+    "transaction_id": "TXN-0061",
+    "invoice_id": "INV-1061",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0062",
+    "invoice_id": "INV-1062",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0063",
+    "invoice_id": "INV-1063",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0064",
+    "invoice_id": "INV-1064",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0065",
+    "invoice_id": "INV-1065",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0066",
+    "invoice_id": "INV-1066",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0067",
+    "invoice_id": "INV-1067",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0068",
+    "invoice_id": "INV-1068",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0069",
+    "invoice_id": "INV-1069",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0070",
+    "invoice_id": "INV-1070",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0071",
+    "invoice_id": "INV-1071",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0072",
+    "invoice_id": "INV-1072",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0073",
+    "invoice_id": "INV-1073",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0074",
+    "invoice_id": "INV-1074",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0075",
+    "invoice_id": "INV-1075",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0076",
+    "invoice_id": "INV-1076",
+    "scenario": "split_payment",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two payments combine exactly to settle the invoice."
+  },
+  {
+    "transaction_id": "TXN-0077",
+    "invoice_id": "INV-1077",
+    "scenario": "tax_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0078",
+    "invoice_id": "INV-1078",
+    "scenario": "partial_settlement",
+    "status": "PARTIAL_UNRESOLVED",
+    "expected_payment_count": 1,
+    "financial_difference": 3891.0,
+    "explanation": "Gateway fee explains part; residual bank difference unresolved."
+  },
+  {
+    "transaction_id": "TXN-0079",
+    "invoice_id": "INV-1079",
+    "scenario": "split_payment",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two payments combine exactly to settle the invoice."
+  },
+  {
+    "transaction_id": "TXN-0080",
+    "invoice_id": "INV-1080",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0081",
+    "invoice_id": "INV-1081",
+    "scenario": "gateway_fee",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 3687.5,
+    "explanation": "2.5% gateway fee explains variance."
+  },
+  {
+    "transaction_id": "TXN-0082",
+    "invoice_id": "INV-1082",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0083",
+    "invoice_id": "INV-1083",
+    "scenario": "duplicate_payment",
+    "status": "EXCEPTION_DUPLICATE",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two bank credits match the same invoice; one is a potential duplicate."
+  },
+  {
+    "transaction_id": "TXN-0084",
+    "invoice_id": "INV-1084",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0085",
+    "invoice_id": "INV-1085",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0086",
+    "invoice_id": "INV-1086",
+    "scenario": "credit_note",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 7500.0,
+    "explanation": "Credit note of 7500 explains lower settlement."
+  },
+  {
+    "transaction_id": "TXN-0087",
+    "invoice_id": "INV-1087",
+    "scenario": "duplicate_payment",
+    "status": "EXCEPTION_DUPLICATE",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two bank credits match the same invoice; one is a potential duplicate."
+  },
+  {
+    "transaction_id": "TXN-0088",
+    "invoice_id": "INV-1088",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0089",
+    "invoice_id": "INV-1089",
+    "scenario": "credit_note",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 2500.0,
+    "explanation": "Credit note of 2500 explains lower settlement."
+  },
+  {
+    "transaction_id": "TXN-0090",
+    "invoice_id": "INV-1090",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0091",
+    "invoice_id": "INV-1091",
+    "scenario": "duplicate_payment",
+    "status": "EXCEPTION_DUPLICATE",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two bank credits match the same invoice; one is a potential duplicate."
+  },
+  {
+    "transaction_id": "TXN-0092",
+    "invoice_id": "INV-1092",
+    "scenario": "gateway_fee",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 2891.0,
+    "explanation": "2.5% gateway fee explains variance."
+  },
+  {
+    "transaction_id": "TXN-0093",
+    "invoice_id": "INV-1093",
+    "scenario": "date_variance",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Settlement date is delayed but within tolerance."
+  },
+  {
+    "transaction_id": "TXN-0094",
+    "invoice_id": "INV-1094",
+    "scenario": "gateway_fee",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 737.5,
+    "explanation": "2.5% gateway fee explains variance."
+  },
+  {
+    "transaction_id": "TXN-0095",
+    "invoice_id": "INV-1095",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0096",
+    "invoice_id": "INV-1096",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0097",
+    "invoice_id": "INV-1097",
+    "scenario": "split_payment",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two payments combine exactly to settle the invoice."
+  },
+  {
+    "transaction_id": "TXN-0098",
+    "invoice_id": "INV-1098",
+    "scenario": "date_variance",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Settlement date is delayed but within tolerance."
+  },
+  {
+    "transaction_id": "TXN-0099",
+    "invoice_id": "INV-1099",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0100",
+    "invoice_id": "INV-1100",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0101",
+    "invoice_id": "INV-1101",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0102",
+    "invoice_id": "INV-1102",
+    "scenario": "duplicate_payment",
+    "status": "EXCEPTION_DUPLICATE",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Two bank credits match the same invoice; one is a potential duplicate."
+  },
+  {
+    "transaction_id": "TXN-0103",
+    "invoice_id": "INV-1103",
+    "scenario": "partial_settlement",
+    "status": "PARTIAL_UNRESOLVED",
+    "expected_payment_count": 1,
+    "financial_difference": 2712.5,
+    "explanation": "Gateway fee explains part; residual bank difference unresolved."
+  },
+  {
+    "transaction_id": "TXN-0104",
+    "invoice_id": "INV-1104",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0105",
+    "invoice_id": "INV-1105",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0106",
+    "invoice_id": "INV-1106",
+    "scenario": "date_variance",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Settlement date is delayed but within tolerance."
+  },
+  {
+    "transaction_id": "TXN-0107",
+    "invoice_id": "INV-1107",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0108",
+    "invoice_id": "INV-1108",
+    "scenario": "fuzzy_entity_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Entity names differ but reference, amount and timing align."
+  },
+  {
+    "transaction_id": "TXN-0109",
+    "invoice_id": "INV-1109",
+    "scenario": "tax_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0110",
+    "invoice_id": "INV-1110",
+    "scenario": "gateway_fee",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 4425.0,
+    "explanation": "2.5% gateway fee explains variance."
+  },
+  {
+    "transaction_id": "TXN-0111",
+    "invoice_id": "INV-1111",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0112",
+    "invoice_id": "INV-1112",
+    "scenario": "credit_note",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 7500.0,
+    "explanation": "Credit note of 7500 explains lower settlement."
+  },
+  {
+    "transaction_id": "TXN-0113",
+    "invoice_id": "INV-1113",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0114",
+    "invoice_id": "INV-1114",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0115",
+    "invoice_id": "INV-1115",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0116",
+    "invoice_id": "INV-1116",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0117",
+    "invoice_id": "INV-1117",
+    "scenario": "gateway_fee",
+    "status": "RESOLVED_ADJUSTMENT",
+    "expected_payment_count": 1,
+    "financial_difference": 737.5,
+    "explanation": "2.5% gateway fee explains variance."
+  },
+  {
+    "transaction_id": "TXN-0118",
+    "invoice_id": "INV-1118",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0119",
+    "invoice_id": "INV-1119",
+    "scenario": "exact_match",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Exact match"
+  },
+  {
+    "transaction_id": "TXN-0120",
+    "invoice_id": "INV-1120",
+    "scenario": "date_variance",
+    "status": "MATCHED",
+    "expected_payment_count": 1,
+    "financial_difference": 0.0,
+    "explanation": "Settlement date is delayed but within tolerance."
+  }
+]

@@ -1,0 +1,8 @@
+venv/
+.DS_Store
+ai-finance-controller/finance-dashboard/node_modules/
+ai-finance-controller/finance-dashboard/dist/
+__pycache__/
+.pytest_cache/
+ai-finance-controller/.DS_Store
+.DS_Store
